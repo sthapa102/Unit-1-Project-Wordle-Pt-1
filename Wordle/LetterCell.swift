@@ -51,7 +51,7 @@ class LetterCell: UICollectionViewCell {
   func set(style: LetterCellStyle) {
     // START YOUR CODE HERE
       switch style {
-         case .initial:
+         case.initial:
           contentView.backgroundColor = .black;
           layer.borderColor = UIColor.gray.cgColor;
       case .incorrect:
